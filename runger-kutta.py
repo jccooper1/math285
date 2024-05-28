@@ -25,7 +25,7 @@ def f(t, y):
 def exact_solution(t):
     return -t - 1 + np.exp(t)
 # Set initial conditions and parameters
-y0 = 0  # Initial y value
+y0 = 1  # Initial y value
 a = 0   # Start of the interval
 b = 2   # End of the interval
 n = 100  # Number of steps
